@@ -12,6 +12,41 @@
   border-bottom: 1px solid #e8e9ef;
 }
 
+.catalog-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.catalog-controls input,
+.catalog-controls select,
+.catalog-controls button,
+.pagination-controls button {
+  padding: 10px 12px;
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.catalog-controls input {
+  flex: 1;
+  min-width: 180px;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.pagination-controls button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .brand {
   color: #20253a;
   font-size: 1.55rem;
